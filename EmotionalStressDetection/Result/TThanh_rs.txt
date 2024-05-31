@@ -1,0 +1,76 @@
+KNN
+train_score:  0.9509246088193457
+test_score:  0.9261363636363636
+avg_accuracy:  0.905383309469383
+
+Classification Report:
+----------------------
+               precision    recall  f1-score   support
+
+    NEGATIVE       0.91      0.93      0.92       110
+     NEUTRAL       0.90      0.94      0.92       118
+    POSITIVE       0.97      0.91      0.94       124
+
+    accuracy                           0.93       352
+   macro avg       0.93      0.93      0.93       352
+weighted avg       0.93      0.93      0.93       352
+
+
+SVC
+train_score:  1.0
+test_score:  0.9545454545454546
+avg_accuracy:  0.9428558868597553
+
+Classification Report:
+----------------------
+               precision    recall  f1-score   support
+
+    NEGATIVE       0.95      0.95      0.95       110
+     NEUTRAL       0.93      0.96      0.95       118
+    POSITIVE       0.98      0.95      0.97       124
+
+    accuracy                           0.95       352
+   macro avg       0.95      0.95      0.95       352
+weighted avg       0.96      0.95      0.95       352
+
+
+DecisionTreeClassifier
+train_score:  0.9786628733997155
+test_score:  0.8806818181818182
+avg_accuracy:  0.88313833973892
+
+Classification Report:
+----------------------
+               precision    recall  f1-score   support
+
+    NEGATIVE       0.86      0.85      0.85       110
+     NEUTRAL       0.82      0.87      0.85       118
+    POSITIVE       0.96      0.92      0.94       124
+
+    accuracy                           0.88       352
+   macro avg       0.88      0.88      0.88       352
+weighted avg       0.88      0.88      0.88       352
+
+
+RandomForestClassifier
+train_score:  1.0
+test_score:  0.9176136363636364
+avg_accuracy:  0.9291456810436501
+
+Classification Report:
+----------------------
+               precision    recall  f1-score   support
+
+    NEGATIVE       0.89      0.93      0.91       110
+     NEUTRAL       0.90      0.91      0.90       118
+    POSITIVE       0.96      0.92      0.94       124
+
+    accuracy                           0.92       352
+   macro avg       0.92      0.92      0.92       352
+weighted avg       0.92      0.92      0.92       352
+
+                    Model  Train Accuracy  Test Accuracy  K fold Accuracy
+0    KNeighborsClassifier        0.950925       0.926136         0.905383
+1                     SVC        1.000000       0.954545         0.942856
+2  DecisionTreeClassifier        0.978663       0.880682         0.883138
+3  RandomForestClassifier        1.000000       0.917614         0.929146

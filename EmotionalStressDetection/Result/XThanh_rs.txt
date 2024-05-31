@@ -1,0 +1,24 @@
+Train accuracy: 0.994375
+Test accuracy: 0.91
+              precision    recall  f1-score   support
+
+          -1       0.90      0.87      0.88       136
+           0       0.96      0.97      0.97       144
+           1       0.86      0.88      0.87       120
+
+    accuracy                           0.91       400
+   macro avg       0.91      0.91      0.91       400
+weighted avg       0.91      0.91      0.91       400
+
+Fold 1, Accuracy: 0.8650
+Fold 2, Accuracy: 0.9250
+Fold 3, Accuracy: 0.8950
+Fold 4, Accuracy: 0.8650
+Fold 5, Accuracy: 0.8950
+Fold 6, Accuracy: 0.9050
+Fold 7, Accuracy: 0.8600
+Fold 8, Accuracy: 0.9100
+Fold 9, Accuracy: 0.8850
+Fold 10, Accuracy: 0.9300
+Accuracy of folds: [0.865, 0.925, 0.895, 0.865, 0.895, 0.905, 0.86, 0.91, 0.885, 0.93]
+K-Fold mean accuracy: 0.8935000000000001
