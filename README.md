@@ -1,7 +1,7 @@
 ---
 # Analysis of Emotion using EEG Headset - Stressed Detection
 
-## Serving for the course Machine Learning - IT3190E
+### Serving for the course Machine Learning - IT3190E
 
 This is a project of building a Brain Computer Interface (BCI) system to classify emotional stress state base on EEG signal.
 
